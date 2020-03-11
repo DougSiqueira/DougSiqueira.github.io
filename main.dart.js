@@ -9183,7 +9183,7 @@ ff:function(a){if(a==null)return"null"
 return C.i.aP(a,1)},
 QU:function(a,b,c,d){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$QU=P.E(function(e,f){if(e===1){p=f
-t=q}while(true)switch(t){case 0:j="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//game"
+t=q}while(true)switch(t){case 0:j="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//game"
 i='    {\n      "name": "'+c+'",\n      "working": "'+d+'",\n      "initialDate": "'+b.h(0)+'",\n      "endDate": "'+a.h(0)+'"\n    }\n     '
 h=new H.aF(u.b)
 J.cx(h,"Content-type","application/json")
@@ -9214,7 +9214,7 @@ i=null
 J.cx(j,"Content-type","application/json")
 q=4
 t=7
-return P.K(G.q8("http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//game",j),$async$QX)
+return P.K(G.q8("https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//game",j),$async$QX)
 case 7:n=b
 if(n.b===200){l=n
 i=C.az.c5(0,B.q6(U.q_(l.e).c.a.i(0,"charset")).c5(0,l.x))
@@ -9238,7 +9238,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$QX,s)},
 Bv:function(a,b,c,d,e){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$Bv=P.E(function(f,a0){if(f===1){p=a0
-t=q}while(true)switch(t){case 0:i="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//mission_active"
+t=q}while(true)switch(t){case 0:i="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//mission_active"
 h='    {\n      "missionID": "'+H.c(d)+'",\n      "adminID": "'+a+'",\n      "finish": '+c+',\n      "dateFinish": "'+b.a+'",\n      "usersIDs": '+H.c(e)+"\n    }\n     "
 P.dE(i)
 P.dE(h)
@@ -9267,7 +9267,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$Bv,s)},
 R2:function(a){var t=0,s=P.J(u.a),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$R2=P.E(function(b,c){if(b===1){p=c
-t=q}while(true)switch(t){case 0:j=C.d.I("http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//missions?missionID=",a)
+t=q}while(true)switch(t){case 0:j=C.d.I("https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//missions?missionID=",a)
 i=new H.aF(u.b)
 h=null
 J.cx(i,"Content-type","application/json")
@@ -9297,7 +9297,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$R2,s)},
 R0:function(){var t=0,s=P.J(u.a),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$R0=P.E(function(a,b){if(a===1){p=b
-t=q}while(true)switch(t){case 0:i="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//user/actives?field=name"
+t=q}while(true)switch(t){case 0:i="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//user/actives?field=name"
 h=new H.aF(u.b)
 J.cx(h,"Content-type","application/json")
 q=4
@@ -9325,7 +9325,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$R0,s)},
 R3:function(a,b){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$R3=P.E(function(c,d){if(c===1){p=d
-t=q}while(true)switch(t){case 0:i="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//user/activate"
+t=q}while(true)switch(t){case 0:i="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//user/activate"
 h=new H.aF(u.b)
 J.cx(h,"Content-Type","application/json")
 n='{\n    "active": '+H.c(b)+',\n    "userID": "'+H.c(a)+'"\n    }'
@@ -9357,7 +9357,7 @@ i=null
 J.cx(j,"Content-type","application/json")
 q=4
 t=7
-return P.K(G.q8(C.d.I("http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//user/search?name=",a),j),$async$R1)
+return P.K(G.q8(C.d.I("https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//user/search?name=",a),j),$async$R1)
 case 7:n=c
 if(n.b===200){l=n
 i=C.az.c5(0,B.q6(U.q_(l.e).c.a.i(0,"charset")).c5(0,l.x))
@@ -9381,7 +9381,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$R1,s)},
 QZ:function(){var t=0,s=P.J(u.a),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$QZ=P.E(function(a,b){if(a===1){p=b
-t=q}while(true)switch(t){case 0:j="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//reward"
+t=q}while(true)switch(t){case 0:j="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//reward"
 i=new H.aF(u.b)
 h=null
 J.cx(i,"Content-type","application/json")
@@ -9411,7 +9411,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$QZ,s)},
 QW:function(a,b,c,d,e,f,a0){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$QW=P.E(function(a1,a2){if(a1===1){p=a2
-t=q}while(true)switch(t){case 0:j="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//reward"
+t=q}while(true)switch(t){case 0:j="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//reward"
 i='        {\n      "title": "'+H.c(f)+'",\n      "subTitle": "'+e+'",\n      "points": "'+d+'",\n      "limit": "'+c+'",\n      "dateLimit": "'+b.a+'",\n      "value": "'+a0+'",\n      "color": "'+a+'",\n      "used": "0"\n    }\n     '
 h=new H.aF(u.b)
 J.cx(h,"Content-Type","application/json")
@@ -9437,7 +9437,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$QW,s)},
 t4:function(a){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h
 var $async$t4=P.E(function(b,c){if(b===1){p=c
-t=q}while(true)switch(t){case 0:k=P.me(C.d.I("http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//reward?rewardID=",a))
+t=q}while(true)switch(t){case 0:k=P.me(C.d.I("https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//reward?rewardID=",a))
 j=u.N
 i=new O.uT(C.aq,new Uint8Array(0),"delete",k,P.tt(new G.qx(),new G.qy(),j,j))
 q=4
@@ -9479,7 +9479,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$t4,s)},
 R5:function(a,b,c,d,e,f,a0,a1){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$R5=P.E(function(a2,a3){if(a2===1){p=a3
-t=q}while(true)switch(t){case 0:j=C.d.I("http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//reward?docID=",e)
+t=q}while(true)switch(t){case 0:j=C.d.I("https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//reward?docID=",e)
 i='        {\n      "title": "'+a0+'",\n      "subTitle": "'+f+'",\n      "points": "'+d+'",\n      "limit": "'+c+'",\n      "dateLimit": "'+b.a+'",\n      "value": "'+a1+'",\n      "color": "'+a+'"\n    }\n     '
 h=new H.aF(u.b)
 J.cx(h,"Content-Type","application/json")
@@ -9505,7 +9505,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$R5,s)},
 R_:function(){var t=0,s=P.J(u.a),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$R_=P.E(function(a,b){if(a===1){p=b
-t=q}while(true)switch(t){case 0:j="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//reward_active/users"
+t=q}while(true)switch(t){case 0:j="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//reward_active/users"
 i=new H.aF(u.b)
 h=null
 J.cx(i,"Content-type","application/json")
@@ -9537,7 +9537,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$R_,s)},
 R6:function(a,b,c,d){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$R6=P.E(function(e,f){if(e===1){p=f
-t=q}while(true)switch(t){case 0:i="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//reward_active"
+t=q}while(true)switch(t){case 0:i="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//reward_active"
 h='    {\n\n      "adminID": "'+a+'",\n     "rewardActiveID": "'+H.c(d)+'",\n      "finish": true,\n      "dateFinish": "'+b.a+'"\n    }\n     '
 P.dE(i)
 P.dE(h)
@@ -9571,7 +9571,7 @@ i=null
 J.cx(j,"Content-type","application/json")
 q=4
 t=7
-return P.K(G.q8("http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//mission",j),$async$QY)
+return P.K(G.q8("https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//mission",j),$async$QY)
 case 7:n=b
 if(n.b===200){l=n
 i=C.az.c5(0,B.q6(U.q_(l.e).c.a.i(0,"charset")).c5(0,l.x))
@@ -9595,7 +9595,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$QY,s)},
 QV:function(a,b,c,d,e,f){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$QV=P.E(function(a0,a1){if(a0===1){p=a1
-t=q}while(true)switch(t){case 0:j="http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//mission"
+t=q}while(true)switch(t){case 0:j="https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//mission"
 i='{\n    "name": "'+e+'",\n    "description": "'+b+'",\n    "points": '+H.c(f)+',\n    "endDate": "'+c.a+'",\n    "iconName": "'+d+'",\n    "color": "'+a+'"\n    }'
 h=new H.aF(u.b)
 J.cx(h,"Content-Type","application/json")
@@ -9621,7 +9621,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$QV,s)},
 R4:function(a,b,c,d,e,f,a0){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h,g
 var $async$R4=P.E(function(a1,a2){if(a1===1){p=a2
-t=q}while(true)switch(t){case 0:j=C.d.I("http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//mission?docId=",e)
+t=q}while(true)switch(t){case 0:j=C.d.I("https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//mission?docId=",e)
 i='{\n    "name": "'+f+'",\n    "description": "'+b+'",\n    "points": '+H.c(a0)+',\n    "endDate": "'+c.a+'",\n    "iconName": "'+d+'",\n    "color": "'+a+'"\n    }'
 h=new H.aF(u.b)
 J.cx(h,"Content-Type","application/json")
@@ -9647,7 +9647,7 @@ case 2:return P.G(p,s)}})
 return P.I($async$R4,s)},
 t3:function(a){var t=0,s=P.J(u.H),r,q=2,p,o=[],n,m,l,k,j,i,h
 var $async$t3=P.E(function(b,c){if(b===1){p=c
-t=q}while(true)switch(t){case 0:k=P.me(C.d.I("http://ec2-18-230-61-53.sa-east-1.compute.amazonaws.com:8080//mission?missionID=",a))
+t=q}while(true)switch(t){case 0:k=P.me(C.d.I("https://ec2-18-228-10-181.sa-east-1.compute.amazonaws.com//mission?missionID=",a))
 j=u.N
 i=new O.uT(C.aq,new Uint8Array(0),"delete",k,P.tt(new G.qx(),new G.qy(),j,j))
 q=4
